@@ -1,0 +1,207 @@
+body{
+    margin: 0px;
+    background: url(http://mlb-s1-p.mlstatic.com/623952-MLB27140071795_042018-O.jpg)
+}
+.container {
+    display: grid;
+    grid-template-columns: 250px auto 250px;
+    grid-template-rows: 87px 5px 135px 2px auto 10px;
+    padding: 0px;
+    margin: 0px;
+  }
+.fim{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7; 
+    background-color: #996600;
+}
+.divisao2{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5; 
+        background-color: #996600;
+}
+.divisao{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3; 
+    background-color: #996600;  
+}
+
+.titulo{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2; 
+    background-color: #1f1f14;
+    font-size: x-large
+}
+.nomedosite{
+    color: #996600;
+    background-color: #1f1f14;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.subnome{
+    display: flex;
+    justify-content: center;
+    color: #996600;
+    background-color: #1f1f14;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.tabelaesquerda{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    background-color: #1f1f14;
+}
+.perfil{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    color: #996600;
+    font-size: x-large;
+}
+.coisasperfil{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex; 
+    justify-content: flex-start;
+    padding-left: 5px;  
+    color: #996600;
+    font-size: medium;
+}
+.temporada{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center; 
+    color: #996600;
+    font-size: x-large;  
+}
+.animetemporada{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    padding-left: 5px;
+    color: #996600;
+    margin-bottom: 9px;  
+}
+.topmal{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;  
+    color: #996600;
+    font-size: x-large; 
+}
+.animemal{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    padding-left: 5px;
+    color: #996600; 
+    margin-bottom: 9px;
+}
+.branco{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    padding-left: 5px;
+    color: #1f1f14;   
+}
+.tabeladireita{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    background-color: #1f1f14;
+}
+.recomendados{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    color: #996600;
+    font-size: x-large;
+}
+.bc{
+    width: 250px;
+}
+.nomedoanime{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex; 
+    justify-content: flex-start;
+    padding-left: 5px;  
+    color: #996600;
+    font-size: medium;
+}
+.meio{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    float: left;
+}
+.post{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.textopost{
+    color: #2f3030;
+    font-size: 30px;
+    margin-left: 125px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+.postar{
+    color: #996600;
+    background-color: #1f1f14;
+    width: 100px;
+    height: 30px;
+    margin-left: 600px;
+}
+.redondo {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+ }
+ .nomeperfil{
+     color: #996600;
+     margin-bottom: 5px;
+     margin-left: 9px;
+     font-size: 20px;
+ }
+ .postagem{
+     color: white;
+     font-size: 15px;
+     margin-left: 100px;
+     margin-right: 100px;
+     margin-bottom: 20px;
+ }
+ .paginas{
+    color: #996600;
+    background-color: #1f1f14;
+    width: 50px;
+    height: 30px;
+    margin-top: 55px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 9px;
+    float: right;
+ }
